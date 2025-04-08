@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    box-shadow: 0;
+    margin: 0;
+}
+#nav{
+   position: static;
+   color: rgb(9, 232, 157);
+
+}
+marquee{
+  margin-top: 10px;
+}
+.fan{
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.ab{
+  text-decoration: none;
+  color: green;
+}
+.imm{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.aa{
+  text-decoration: none;
+  color: green;
+  margin-left: 10px;
+}
+.flex{
+  display: flex;
+  margin-top: 40px;
+}
+.chop{
+  height: 3650px;
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
+h2{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.my{
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.imm{
+  margin-right: 10px;
+}
+.imm{Transition:transform 0.3s ease, box-shadow 0.3s ease;
+  Animation: fadeIn 0.5s ease-in-out;
+  }
+  .imm:hover{transform: translateY(-5px);
+  Box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  @keyframes fadeIn{
+  From{
+  Opacity: 0; transform: translateY(10px);
+  }
+  To{
+  Opacity:1; transform: translateY(0);
+  }
+  }
+.my{Transition:transform 0.3s ease, box-shadow 0.3s ease;
+  Animation: fadeIn 0.5s ease-in-out;
+  }
+  .my:hover{transform: translateY(-5px);
+  Box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  @keyframes fadeIn{
+  From{
+  Opacity: 0; transform: translateY(10px);
+  }
+  To{
+  Opacity:1; transform: translateY(0);
+  }
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.shop{
+  height: 500px;
+  background-color: wheat;
+}
+.input{
+  background-color: black;
+  height: 50px;
+  width: 300px;
+  padding-left: 10px;
+  color: white;
+  margin-left: 5px;
+  border: none;
+}
+.bt{
+  margin-left: 5px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 30px;
+  background-color: #067e52;
+}
+.last{
+  background-color: whitesmoke;
+  height: 750px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  margin-right: 30px;
+}
+.last:hover{
+  color:green;
+}
+.card{
+  width:100px; 
+  height: 100px;
+  margin-bottom: 50px;
+  padding-right: 20px;
+  box-shadow: 0 0 10px rgb(105, 103, 103);
+}
+.face{
+  display: flex;
+  margin-left: 70px;
+  margin-bottom: 10px;
+
+}
+footer{
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+.text{
+ color: rgb(252, 252, 254);
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 100px;
+  text-align: center;
+  
+}
